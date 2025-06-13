@@ -1,0 +1,15 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+    <div *ngFor="let producto of productos" class="border rounded-2xl shadow p-4">
+      <img
+        *ngIf="producto['IMAGEN']"
+        [src]="producto['IMAGEN']"
+        alt="{{ producto['DESCRIPCIÓN'] }}"
+        class="w-full h-40 object-contain mb-2"
+      />
+      <h2 class="text-lg font-bold">{{ producto['DESCRIPCIÓN'] }}</h2>
+      <p class="text-sm text-gray-600">Categoría: {{ producto['CATEGORIA'] }}</p>
+      <p class="text-sm text-gray-600">Unidad: {{ producto['UNIDAD DE MEDIDA'] }}</p>
+      <p class="text-red-600 font-bold text-lg">S/ {{ producto['PRECIO'] }}</p>
+    </div>
+  </div>
+  

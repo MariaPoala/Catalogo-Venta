@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+/* footer.component.css */
+/* styles.css o app.component.css */
+.page-content {
+  padding-bottom: 60px; /* igual al alto del footer */
+}
+
+
+#widget-container > * {
+  position: static !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+
+#widget-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 9999;
+  /* Opcional: para que no ocupe mucho espacio */
+  width: auto; 
+  height: auto;
+}
+
+html, body {
+ 
+  margin: 0;
+}
+
+
+
+
