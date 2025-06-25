@@ -83,33 +83,16 @@ export class AppComponent implements OnInit {
 
 
 
-  checkImageExists(imageUrl: string): Promise<boolean> {
-    return new Promise(resolve => {
-      const img = new Image();
-      img.src = imageUrl;
-      img.onload = () => resolve(true);
-      img.onerror = () => resolve(false);
-    });
-  }
+  
 
- async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
-  return await Promise.all(data.map(async (item) => {
-    let imagenRuta = '../images/sinimagen.jpg';
-
-    // Buscar la primera imagen existente en paralelo
+async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
+  return data.map((item) => {
     const detalles = item.detail ?? [];
-    for (const prod of detalles) {
-      const nombreArchivo = prod.IMAGEN?.split('/').pop();
-      const ruta = `../images/${nombreArchivo}`;
-
-      if (await this.checkImageExists(ruta)) {
-        imagenRuta = ruta;
-        break; // Detenemos cuando encontramos la primera imagen válida
-      }
-    }
+    const primerProd = detalles[0];
+    const imagen = primerProd?.IMAGEN?.split('/').pop() ?? 'sinimagen.jpg';
 
     return {
-      imagen: imagenRuta,
+      imagen,  // Solo el nombre del archivo
       productos: detalles.map(prod => ({
         nombre: prod.PRODUCTO,
         precio: prod.PRECIO
@@ -118,8 +101,9 @@ export class AppComponent implements OnInit {
       categoria: item.CATEGORIA,
       empresa: item.EMPRESA?.trim() || 'SIN EMPRESA'
     };
-  }));
+  });
 }
+
 
 
 
@@ -202,8 +186,8 @@ export class AppComponent implements OnInit {
 
 
   onImageError(event: Event) {
-    const img = event.target as HTMLImageElement;
-    img.src = '../images/sinimagen.jpg';
-  }
+  const img = event.target as HTMLImageElement;
+  img.src = 'assets/images/sinimagen.jpg';
+}
 
 }

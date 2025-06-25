@@ -264,7 +264,9 @@
             <div *ngFor="let producto of productosPaginados"
               class=" rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 overflow-hidden bg-red-50">
               <div class="h-25 sm:h-36  w-full bg-white flex items-center justify-center overflow-hidden">
-                <img [src]="producto.imagen" alt="Imagen" class="w-32 h-32 object-cover" />
+                <img [src]="'assets/images/' + producto.imagen" alt="Imagen" class="w-32 h-32 object-cover"
+                  (error)="onImageError($event)" />
+
               </div>
               <div class="p-4 space-y-1">
                 <h3 class=" font-semibold text-xs sm:text-sm text-gray-800">
