@@ -269,14 +269,12 @@
 
               </div>
               <div class="p-4 space-y-1">
-                <h3 class=" font-semibold text-xs sm:text-sm text-gray-800">
+                <h4 class=" font-semibold text-xs sm:text-sm text-gray-800">
                   <div *ngFor="let item of producto.productos">
-                    <strong>{{ item.nombre }}</strong> - S/ {{ item.precio }}
+                    <p>{{ item.nombre }}</p>
                   </div>
-                </h3>
-                <button (click)="mostrardetalle = true">mas detalle</button>
-                <p class="text-xs text-gray-500">
-                </p>
+                </h4>
+                <!-- <button (click)="mostrardetalle = true">mas detalle</button> -->
               </div>
             </div>
           </div>
