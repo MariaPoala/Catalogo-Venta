@@ -3,19 +3,19 @@
         "descripcion_general": "HARINA ANITA PASTELERA",
         "detail": [
             {
-                "PRODUCTO": "HARINA ANITA PASTELERA",
-                "PRECIO": 3.6,
-                "CÓDIGO": 20241016092842,
-                "IMAGEN": "../images/20241016092842.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
                 "PRODUCTO": "HARINA ANITA PASTELERA X50KG",
                 "PRECIO": 143.0,
                 "CÓDIGO": 20241016092843,
                 "IMAGEN": "../images/20241016092843.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },{
+                "PRODUCTO": "HARINA ANITA PASTELERA",
+                "PRECIO": 3.6,
+                "CÓDIGO": 20241016092842,
+                "IMAGEN": "../images/20241016092842.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+            
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -42,19 +42,19 @@
         "descripcion_general": "HARINA BLANCA NIEVE EXTRA",
         "detail": [
             {
-                "PRODUCTO": "HARINA BLANCA NIEVE EXTRA",
-                "PRECIO": 2.8,
-                "CÓDIGO": 20241016092846,
-                "IMAGEN": "../images/20241016092846.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
                 "PRODUCTO": "HARINA BLANCA NIEVE EXTRA X50KG",
                 "PRECIO": 123.0,
                 "CÓDIGO": 20241016092845,
                 "IMAGEN": "../images/20241016092845.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },{
+                "PRODUCTO": "HARINA BLANCA NIEVE EXTRA",
+                "PRECIO": 2.8,
+                "CÓDIGO": 20241016092846,
+                "IMAGEN": "../images/20241016092846.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+            
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -96,20 +96,20 @@
     {
         "descripcion_general": "HARINA ESPECIAL ANGELICA",
         "detail": [
-            {
-                "PRODUCTO": "HARINA ESPECIAL ANGELICA X25KG",
-                "PRECIO": 67.0,
-                "CÓDIGO": 20241226162711,
-                "IMAGEN": "../images/20241226162711.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
+             {
                 "PRODUCTO": "HARINA ESPECIAL ANGELICA X50KG",
                 "PRECIO": 131.0,
                 "CÓDIGO": 20241016092851,
                 "IMAGEN": "../images/20241016092851.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },{
+                "PRODUCTO": "HARINA ESPECIAL ANGELICA X25KG",
+                "PRECIO": 67.0,
+                "CÓDIGO": 20241226162711,
+                "IMAGEN": "../images/20241226162711.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+           
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA",
@@ -135,20 +135,20 @@
     {
         "descripcion_general": "HARINA ESPECIAL DON LUCCIANO",
         "detail": [
-            {
-                "PRODUCTO": "HARINA ESPECIAL DON LUCCIANO",
-                "PRECIO": 2.8,
-                "CÓDIGO": 20241016092852,
-                "IMAGEN": "../images/20241016092852.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
+             {
                 "PRODUCTO": "HARINA ESPECIAL DON LUCCIANO X50KG",
                 "PRECIO": 115.0,
                 "CÓDIGO": 20241016092853,
                 "IMAGEN": "../images/20241016092853.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },{
+                "PRODUCTO": "HARINA ESPECIAL DON LUCCIANO",
+                "PRECIO": 2.8,
+                "CÓDIGO": 20241016092852,
+                "IMAGEN": "../images/20241016092852.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+           
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -175,19 +175,19 @@
         "descripcion_general": "HARINA ESPECIAL PANERA",
         "detail": [
             {
-                "PRODUCTO": "HARINA ESPECIAL PANERA X25KG",
-                "PRECIO": 58.0,
-                "CÓDIGO": 20250117094902,
-                "IMAGEN": "../images/20250117094902.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
                 "PRODUCTO": "HARINA ESPECIAL PANERA X50KG",
                 "PRECIO": 112.0,
                 "CÓDIGO": 20241016092855,
                 "IMAGEN": "../images/20241016092855.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            }, {
+                "PRODUCTO": "HARINA ESPECIAL PANERA X25KG",
+                "PRECIO": 58.0,
+                "CÓDIGO": 20250117094902,
+                "IMAGEN": "../images/20250117094902.jpg",
+                "UNIDAD DE MEDIDA": "UNIDADES"
             }
+           
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA",
@@ -230,19 +230,19 @@
         "descripcion_general": "HARINA NICOLINI PASTELERA (COMERCIAL)",
         "detail": [
             {
-                "PRODUCTO": "HARINA NICOLINI PASTELERA (COMERCIAL)",
-                "PRECIO": 3.6,
-                "CÓDIGO": 20241016092858,
-                "IMAGEN": "../images/20241016092858.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
                 "PRODUCTO": "HARINA NICOLINI PASTELERA (COMERCIAL) X50KG",
                 "PRECIO": 147.0,
                 "CÓDIGO": 20241016092859,
                 "IMAGEN": "../images/20241016092859.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },{
+                "PRODUCTO": "HARINA NICOLINI PASTELERA (COMERCIAL)",
+                "PRECIO": 3.6,
+                "CÓDIGO": 20241016092858,
+                "IMAGEN": "../images/20241016092858.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+            
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -253,19 +253,19 @@
         "descripcion_general": "HARINA NICOLINI PREMIUM",
         "detail": [
             {
-                "PRODUCTO": "HARINA NICOLINI PREMIUM",
-                "PRECIO": 3.5,
-                "CÓDIGO": 20241016092860,
-                "IMAGEN": "../images/20241016092860.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
                 "PRODUCTO": "HARINA NICOLINI PREMIUM X50KG",
                 "PRECIO": 164.0,
                 "CÓDIGO": 20241016092861,
                 "IMAGEN": "../images/20241016092861.jpg",
                 "UNIDAD DE MEDIDA": "SACOS"
+            },{
+                "PRODUCTO": "HARINA NICOLINI PREMIUM",
+                "PRECIO": 3.5,
+                "CÓDIGO": 20241016092860,
+                "IMAGEN": "../images/20241016092860.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+            
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -276,19 +276,20 @@
         "descripcion_general": "HARINA NICOLINI SELECCION ESPECIAL",
         "detail": [
             {
-                "PRODUCTO": "HARINA NICOLINI SELECCION ESPECIAL",
-                "PRECIO": 3.0,
-                "CÓDIGO": 20241016092862,
-                "IMAGEN": "../images/20241016092862.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            },
-            {
                 "PRODUCTO": "HARINA NICOLINI SELECCION ESPECIAL X50KG",
                 "PRECIO": 126.0,
                 "CÓDIGO": 20241016092863,
                 "IMAGEN": "../images/20241016092863.jpg",
                 "UNIDAD DE MEDIDA": "UNIDADES"
+            },
+            {
+                "PRODUCTO": "HARINA NICOLINI SELECCION ESPECIAL",
+                "PRECIO": 3.0,
+                "CÓDIGO": 20241016092862,
+                "IMAGEN": "../images/20241016092862.jpg",
+                "UNIDAD DE MEDIDA": "KILOGRAMO"
             }
+        
         ],
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA SUELTA",
@@ -342,222 +343,6 @@
         "CATEGORIA": "HARINA PASTELERA",
         "STOCK": null,
         "EMPRESA": "GRANO DE SANTA MARIA"
-    },
-    {
-        "descripcion_general": "LECHE CONDENSADA GLORIA X1.2KG",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE CONDENSADA GLORIA X1.2KG",
-                "PRECIO": 17.0,
-                "CÓDIGO": 20241025155341,
-                "IMAGEN": "../images/20241025155341.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE CONDENSADA GLORIA X1.2KG X8UNI",
-                "PRECIO": 130.0,
-                "CÓDIGO": 20241025160712,
-                "IMAGEN": "../images/20241025160712.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE CONDENSADA",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE CONDENSADA GLORIA X393GR",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE CONDENSADA GLORIA X393GR",
-                "PRECIO": 5.5,
-                "CÓDIGO": 20241016092918,
-                "IMAGEN": "../images/20241016092918.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE CONDENSADA GLORIA X393GR X24UNI",
-                "PRECIO": 130.0,
-                "CÓDIGO": 20241016092919,
-                "IMAGEN": "../images/20241016092919.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE CONDENSADA",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA AZUL X170GR X12UNI",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA AZUL X170GR X12UNI",
-                "PRECIO": 24.0,
-                "CÓDIGO": 20241016092928,
-                "IMAGEN": "../images/20241016092928.jpg",
-                "UNIDAD DE MEDIDA": "DOCENA"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA AZUL X170GR X48UNI",
-                "PRECIO": 95.0,
-                "CÓDIGO": 20241016092927,
-                "IMAGEN": "../images/20241016092927.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA AZUL X390GR",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA AZUL X390GR",
-                "PRECIO": 3.9,
-                "CÓDIGO": 20241016092929,
-                "IMAGEN": "../images/20241016092929.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA AZUL X390GR X24UNI",
-                "PRECIO": 90.0,
-                "CÓDIGO": 20241016092930,
-                "IMAGEN": "../images/20241016092930.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA LIGHT ROJA X390GR",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA LIGHT ROJA X390GR",
-                "PRECIO": 4.0,
-                "CÓDIGO": 20241016092931,
-                "IMAGEN": "../images/20241016092931.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA LIGHT ROJA X390GR X24UNI",
-                "PRECIO": 93.0,
-                "CÓDIGO": 20241016092932,
-                "IMAGEN": "../images/20241016092932.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA NIÑOS X395GR",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA NIÑOS X395GR",
-                "PRECIO": 4.0,
-                "CÓDIGO": 20241016092933,
-                "IMAGEN": "../images/20241016092933.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA NIÑOS X395GR X24UNI",
-                "PRECIO": 93.0,
-                "CÓDIGO": 20241016092934,
-                "IMAGEN": "../images/20241016092934.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA UHT ENTERA BOLSA X900ML",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA UHT ENTERA BOLSA X900ML",
-                "PRECIO": 4.5,
-                "CÓDIGO": 20241016092935,
-                "IMAGEN": "../images/20241016092935.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA UHT ENTERA BOLSA X900ML X12UNI",
-                "PRECIO": 52.0,
-                "CÓDIGO": 20241016092936,
-                "IMAGEN": "../images/20241016092936.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "LECHE GLORIA UHT ENTERA CAJA X1LT",
-        "detail": [
-            {
-                "PRODUCTO": "LECHE GLORIA UHT ENTERA CAJA X1LT",
-                "PRECIO": 5.5,
-                "CÓDIGO": 20241016092937,
-                "IMAGEN": "../images/20241016092937.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "LECHE GLORIA UHT ENTERA CAJA X1LT X12UNI",
-                "PRECIO": 63.0,
-                "CÓDIGO": 20241016092938,
-                "IMAGEN": "../images/20241016092938.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LECHE",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "MANTEQUILLA GLORIA POTE X390GR",
-        "detail": [
-            {
-                "PRODUCTO": "MANTEQUILLA GLORIA POTE X390GR",
-                "PRECIO": 19.0,
-                "CÓDIGO": 20241016093003,
-                "IMAGEN": "../images/20241016093003.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "MANTEQUILLA",
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
-    },
-    {
-        "descripcion_general": "MANTEQUILLA GLORIA X180GR",
-        "detail": [
-            {
-                "PRODUCTO": "MANTEQUILLA GLORIA X180GR",
-                "PRECIO": 11.0,
-                "CÓDIGO": 20241107151457,
-                "IMAGEN": "../images/20241107151457.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": null,
-        "STOCK": null,
-        "EMPRESA": "GLORIA"
     },
     {
         "descripcion_general": "PREMEZCLA BAKELS BASE HUMEDA SABOR CHOCOLATE TRIPLE X10KG",
@@ -889,22 +674,7 @@
         "STOCK": null,
         "EMPRESA": "HENSIL"
     },
-    {
-        "descripcion_general": "PREMEZCLA DE CHOCOLATE NEGUSA X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA DE CHOCOLATE NEGUSA X1KG",
-                "PRECIO": 9.0,
-                "CÓDIGO": 20241025115039,
-                "IMAGEN": "../images/20241025115039.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NEGUSA"
-    },
+   
     {
         "descripcion_general": "PREMEZCLA EASY QUEQUE PURATOS X5KG",
         "detail": [
@@ -1222,70 +992,6 @@
         "CATEGORIA": "PREMEZCLA",
         "STOCK": null,
         "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI PANETON PREMIUM X25KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI PANETON PREMIUM X25KG",
-                "PRECIO": 210.0,
-                "CÓDIGO": 20241117084907,
-                "IMAGEN": "../images/20241117084907.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA DE PANETON",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA PANETON BAKELS  X25KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PANETON BAKELS  X25KG",
-                "PRECIO": 240.0,
-                "CÓDIGO": 20241018191002,
-                "IMAGEN": "../images/20241018191002.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA DE PANETON",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA PANETON BAKELS (COMBO) X25KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PANETON BAKELS (COMBO) X25KG",
-                "PRECIO": 295.0,
-                "CÓDIGO": 20241018191022,
-                "IMAGEN": "../images/20241018191022.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA DE PANETON",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA PANETON PURATOS X25KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PANETON PURATOS X25KG",
-                "PRECIO": 205.0,
-                "CÓDIGO": 20241018191039,
-                "IMAGEN": "../images/20241018191039.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA DE PANETON",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
     },
     {
         "descripcion_general": "PREMEZCLA PURATOS TEGRAL BASE DE CHOCOLATE X5KG",
