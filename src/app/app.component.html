@@ -174,7 +174,7 @@
   }
 </style>
 
-<main class="bg-white text-black min-h-screen w-full pb-12 ">
+<main class="bg-white text-black min-h-screen w-full ">
   <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] min-h-screen w-full">
     <aside class="hidden md:block bg-red-900 w-64 h-screen p-4">
       <h2 class="text-xl font-bold text-yellow-300 mb-4">CATEGORÍAS</h2>
@@ -261,7 +261,7 @@
         <!-- PRODUCTOS -->
         <div class="mt-4">
           <div class="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 ">
-            <div *ngFor="let producto of productosTransformados"
+            <div *ngFor="let producto of productosPaginados"
               class=" rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 overflow-hidden bg-red-50">
               <div class="h-25 sm:h-36  w-full bg-white flex items-center justify-center overflow-hidden">
                 <img [src]="producto.imagen" alt="Imagen" class="w-32 h-32 object-cover" />
@@ -279,6 +279,25 @@
             </div>
           </div>
         </div>
+        <!-- CONTROLES DE PAGINACIÓN -->
+        <!-- CONTROLES DE PAGINACIÓN -->
+        <div class="mt-6 flex justify-center items-center gap-4">
+          <button (click)="cambiarPagina(paginaActual - 1)" [disabled]="paginaActual === 1"
+            class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 disabled:opacity-50">
+            Anterior
+          </button>
+
+          <span class="text-gray-700 font-medium">
+            Página {{ paginaActual }} de {{ totalPaginas }}
+          </span>
+
+          <button (click)="cambiarPagina(paginaActual + 1)" [disabled]="paginaActual === totalPaginas"
+            class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 disabled:opacity-50">
+            Siguiente
+          </button>
+        </div>
+
+
       </div>
     </section>
 
@@ -299,15 +318,15 @@
             </button>
           </li>
 
-           <li *ngFor="let categoria of categoriasGenerales">
-          <button type="button" (click)="seleccionarCategoriaGeneral(categoria); mostrarSidebar = false" 
-            class="w-full text-left px-4 py-2 rounded-md transition" [ngClass]="{
+          <li *ngFor="let categoria of categoriasGenerales">
+            <button type="button" (click)="seleccionarCategoriaGeneral(categoria); mostrarSidebar = false"
+              class="w-full text-left px-4 py-2 rounded-md transition" [ngClass]="{
           'bg-zinc-100 text-red-900 font-semibold': categoriaSeleccionadas === categoria,
           'text-white hover:bg-yellow-500': categoriaSeleccionadas !== categoria
         }">
-            {{ categoria }}
-          </button>
-        </li>
+              {{ categoria }}
+            </button>
+          </li>
         </ul>
       </aside>
     </div>
@@ -368,5 +387,5 @@
 <router-outlet></router-outlet> -->
 <div class="page-content">
   <router-outlet></router-outlet>
+  <app-footer></app-footer>
 </div>
-<!-- <app-footer></app-footer> -->

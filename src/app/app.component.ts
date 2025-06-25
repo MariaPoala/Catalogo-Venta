@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { ProductoService, ProductoItem, DetalleProducto } from './servicios/producto.service';
 import { ProductoTransformado } from './servicios/producto-transformado.model';
+import { FooterComponent } from './footer/footer.component';
 
 
 @Component({
@@ -15,7 +16,8 @@ import { ProductoTransformado } from './servicios/producto-transformado.model';
     CommonModule,
     NgFor,
     NgIf,
-    FormsModule
+    FormsModule,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
@@ -34,6 +36,25 @@ export class AppComponent implements OnInit {
 
 
   private productoService = inject(ProductoService);
+  // Paginación
+  paginaActual: number = 1;
+  productosPorPagina: number = 30;
+
+  get productosPaginados() {
+    const inicio = (this.paginaActual - 1) * this.productosPorPagina;
+    const fin = inicio + this.productosPorPagina;
+    return this.productosTransformados.slice(inicio, fin);
+  }
+
+  get totalPaginas(): number {
+    return Math.ceil(this.productosTransformados.length / this.productosPorPagina);
+  }
+
+  cambiarPagina(pagina: number) {
+    if (pagina >= 1 && pagina <= this.totalPaginas) {
+      this.paginaActual = pagina;
+    }
+  }
 
   productosOriginalTransformados: {
     imagen: string;
@@ -71,38 +92,35 @@ export class AppComponent implements OnInit {
     });
   }
 
-  async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
-    const productosTransformados: ProductoTransformado[] = [];
+ async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
+  return await Promise.all(data.map(async (item) => {
+    let imagenRuta = '../images/sinimagen.jpg';
 
-    for (const item of data) {
-      let imagenRuta = '../images/sinimagen.jpg';
+    // Buscar la primera imagen existente en paralelo
+    const detalles = item.detail ?? [];
+    for (const prod of detalles) {
+      const nombreArchivo = prod.IMAGEN?.split('/').pop();
+      const ruta = `../images/${nombreArchivo}`;
 
-      for (const prod of item.detail) {
-        const nombreArchivo = prod.IMAGEN.split('/').pop();
-        const ruta = `../images/${nombreArchivo}`;
-        const existe = await this.checkImageExists(ruta);
-
-        if (existe) {
-          imagenRuta = ruta;
-          break;
-        }
+      if (await this.checkImageExists(ruta)) {
+        imagenRuta = ruta;
+        break; // Detenemos cuando encontramos la primera imagen válida
       }
-
-      productosTransformados.push({
-        imagen: imagenRuta,
-        productos: item.detail.map(prod => ({
-          nombre: prod.PRODUCTO,
-          precio: prod.PRECIO
-        })),
-        categoriaGeneral: item.CATEGORIAGENERAL,
-        categoria: item.CATEGORIA,
-        empresa: item.EMPRESA?.trim() || 'SIN EMPRESA'  // ✅ Aquí se asegura
-      });
-
     }
 
-    return productosTransformados;
-  }
+    return {
+      imagen: imagenRuta,
+      productos: detalles.map(prod => ({
+        nombre: prod.PRODUCTO,
+        precio: prod.PRECIO
+      })),
+      categoriaGeneral: item.CATEGORIAGENERAL,
+      categoria: item.CATEGORIA,
+      empresa: item.EMPRESA?.trim() || 'SIN EMPRESA'
+    };
+  }));
+}
+
 
 
 
@@ -164,6 +182,7 @@ export class AppComponent implements OnInit {
     this.empresaSeleccionada = null;
     this.filtrarProductos();
     this.filtrarEmpresasPorCategoria();
+    this.paginaActual = 1;
   }
 
 
@@ -171,6 +190,7 @@ export class AppComponent implements OnInit {
     this.empresaSeleccionada = empresa === 'TODAS' ? null : empresa;
     this.filtrarProductos();
     this.mostrarDropdown = false;
+    this.paginaActual = 1;
   }
 
 

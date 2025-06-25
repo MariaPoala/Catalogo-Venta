@@ -25,7 +25,7 @@ export interface ProductoItem {
   providedIn: 'root'
 })
 export class ProductoService {
-  private jsonUrl = 'assets/productos.json';
+  private jsonUrl = 'assets/data/productos.json';
 
   constructor(private http: HttpClient) {}
 
