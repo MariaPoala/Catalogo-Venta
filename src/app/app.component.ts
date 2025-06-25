@@ -167,6 +167,7 @@ async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]
     this.filtrarProductos();
     this.filtrarEmpresasPorCategoria();
     this.paginaActual = 1;
+    this.mostrarDropdown = false;
   }
 
 
@@ -175,6 +176,7 @@ async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]
     this.filtrarProductos();
     this.mostrarDropdown = false;
     this.paginaActual = 1;
+    
   }
 
 
