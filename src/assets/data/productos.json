@@ -1,1060 +1,982 @@
 [
     {
-        "descripcion_general": "HARINA ANITA PASTELERA",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA ANITA PASTELERA X50KG",
-                "PRECIO": 143.0,
-                "CÓDIGO": 20241016092843,
-                "IMAGEN": "../images/20241016092843.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },{
-                "PRODUCTO": "HARINA ANITA PASTELERA",
-                "PRECIO": 3.6,
-                "CÓDIGO": 20241016092842,
-                "IMAGEN": "../images/20241016092842.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-            
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ANITA FOOD"
+        "CÓDIGO": "20241016092057",
+        "IMAGEN": "../images/20241016092057.jpg",
+        "DESCRIPCIÓN": "ACEITE CIL X20LT",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE BALDE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA BENOTI EXTRA X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA BENOTI EXTRA X50KG",
-                "PRECIO": 125.0,
-                "CÓDIGO": 20241016092844,
-                "IMAGEN": "../images/20241016092844.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092058",
+        "IMAGEN": "../images/20241016092058.jpg",
+        "DESCRIPCIÓN": "ACEITE CIL X5L",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092060",
+        "IMAGEN": "../images/20241016092060.jpg",
+        "DESCRIPCIÓN": "ACEITE CIL X900ML",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092062",
+        "IMAGEN": "../images/20241016092062.jpg",
+        "DESCRIPCIÓN": "ACEITE COCINERO X2OLT",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE BALDE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092063",
+        "IMAGEN": "../images/20241016092063.jpg",
+        "DESCRIPCIÓN": "ACEITE COCINERO X5LT",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092064",
+        "IMAGEN": "../images/20241016092064.jpg",
+        "DESCRIPCIÓN": "ACEITE COCINERO X900ML",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092089",
+        "IMAGEN": "../images/20241016092089.jpg",
+        "DESCRIPCIÓN": "ACEITE PRIMOR CLASICO X900ML",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092091",
+        "IMAGEN": "../images/20241016092091.jpg",
+        "DESCRIPCIÓN": "ACEITE PRIMOR PREMIUM X900ML",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092093",
+        "IMAGEN": "../images/20241016092093.jpg",
+        "DESCRIPCIÓN": "ACEITE PRIMOR X5LT",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ACEITE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093567",
+        "IMAGEN": "../images/20241016093567.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X150GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093560",
+        "IMAGEN": "../images/20241016093560.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X2.4KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093565",
+        "IMAGEN": "../images/20241016093565.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X200GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093564",
+        "IMAGEN": "../images/20241016093564.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X330GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092557",
+        "IMAGEN": "../images/20241016092557.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X4.2KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093562",
+        "IMAGEN": "../images/20241016093562.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X450GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092559",
+        "IMAGEN": "../images/20241016092559.jpg",
+        "DESCRIPCIÓN": "DETERGENTE BOLIVAR ACTIVE X750GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093558",
+        "IMAGEN": "../images/20241016093558.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X140GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093557",
+        "IMAGEN": "../images/20241016093557.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X290GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092560",
+        "IMAGEN": "../images/20241016092560.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X2KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092562",
+        "IMAGEN": "../images/20241016092562.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X330GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092564",
+        "IMAGEN": "../images/20241016092564.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X450GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092566",
+        "IMAGEN": "../images/20241016092566.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X4KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092568",
+        "IMAGEN": "../images/20241016092568.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PETALOS X750GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092571",
+        "IMAGEN": "../images/20241016092571.jpg",
+        "DESCRIPCIÓN": "DETERGENTE MARSELLA PROFESIONAL X13.5KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE GRANEL",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092587",
+        "IMAGEN": "../images/20241016092587.jpg",
+        "DESCRIPCIÓN": "DETERGENTE SAPOLIO X13.5KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "DETERGENTE GRANEL",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093469",
+        "IMAGEN": "../images/20241016093469.jpg",
+        "DESCRIPCIÓN": "ESENCIA VAINILLA UMSHA X1LT",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "ESENCIA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093470",
+        "IMAGEN": "../images/20241016093470.jpg",
+        "DESCRIPCIÓN": "ESENCIA VAINILLA UMSHA X1LT X12BOT",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "ESENCIA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20250127105659",
+        "IMAGEN": "../images/20250127105659.jpg",
+        "DESCRIPCIÓN": "ESENCIA VAINILLA UMSHA X90ML",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "ESENCIA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092709",
+        "IMAGEN": "../images/20241016092709.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO ARITO X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092710",
+        "IMAGEN": "../images/20241016092710.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CABELLO DE ANGEL X250GR X40UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092711",
+        "IMAGEN": "../images/20241016092711.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CANUTO CHICO X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092712",
+        "IMAGEN": "../images/20241016092712.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CANUTO RAYADO X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092713",
+        "IMAGEN": "../images/20241016092713.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CODO RAYADO X225GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092714",
+        "IMAGEN": "../images/20241016092714.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CORBATA CHICO X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092715",
+        "IMAGEN": "../images/20241016092715.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO CORBATA GRANDE X225GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092716",
+        "IMAGEN": "../images/20241016092716.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO LINGUINI GROSO X450GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092717",
+        "IMAGEN": "../images/20241016092717.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO LINGUINI X450GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092718",
+        "IMAGEN": "../images/20241016092718.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO MUNICION X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092719",
+        "IMAGEN": "../images/20241016092719.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO RIGATONI X235GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092720",
+        "IMAGEN": "../images/20241016092720.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO SPAGHETTI X450GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241030123702",
+        "IMAGEN": "../images/20241030123702.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO SURTIDO X9KG",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092721",
+        "IMAGEN": "../images/20241016092721.jpg",
+        "DESCRIPCIÓN": "FIDEO DON VITTORIO TORNILLO X225GR X20UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FIDEO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092732",
+        "IMAGEN": "../images/20241016092732.jpg",
+        "DESCRIPCIÓN": "FILETE DE ATUN PRIMOR X140GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ATUN",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092737",
+        "IMAGEN": "../images/20241016092737.jpg",
+        "DESCRIPCIÓN": "FLAN VAINILLA UMSHA X90GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "FLAN",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092775",
+        "IMAGEN": "../images/20241016092775.jpg",
+        "DESCRIPCIÓN": "GELATINA FRESA UMSHA X120GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "GELATINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092779",
+        "IMAGEN": "../images/20241016092779.jpg",
+        "DESCRIPCIÓN": "GELATINA LIMON UMSHA X120GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "GELATINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241025171651",
+        "IMAGEN": "../images/20241025171651.jpg",
+        "DESCRIPCIÓN": "GELATINA NARANJA UMSHA X120GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "GELATINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092794",
+        "IMAGEN": "../images/20241016092794.jpg",
+        "DESCRIPCIÓN": "GELATINA PIÑA UMSHA X120GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "GELATINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092799",
+        "IMAGEN": "../images/20241016092799.jpg",
+        "DESCRIPCIÓN": "GELATINA UVA UMSHA X120GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "GELATINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092867",
+        "IMAGEN": "../images/20241016092867.jpg",
+        "DESCRIPCIÓN": "HARINA PREPARADA BLANCA FLOR X1KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "HARINA PREPARADA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092874",
+        "IMAGEN": "../images/20241016092874.jpg",
+        "DESCRIPCIÓN": "JABON BOLIVAR ANTIBACTERIAL X190GRB",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241108122754",
+        "IMAGEN": "../images/20241108122754.jpg",
+        "DESCRIPCIÓN": "JABON BOLIVAR BEBE X190GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092876",
+        "IMAGEN": "../images/20241016092876.jpg",
+        "DESCRIPCIÓN": "JABON BOLIVAR BK CLAS X190GRB",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092878",
+        "IMAGEN": "../images/20241016092878.jpg",
+        "DESCRIPCIÓN": "JABON BOLIVAR FLORAL X190GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092880",
+        "IMAGEN": "../images/20241016092880.jpg",
+        "DESCRIPCIÓN": "JABON BOLIVAR LIMON X190GRB",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092882",
+        "IMAGEN": "../images/20241016092882.jpg",
+        "DESCRIPCIÓN": "JABON MARSELLA FLORAL X190GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092883",
+        "IMAGEN": "../images/20241016092883.jpg",
+        "DESCRIPCIÓN": "JABON MARSELLA FLORAL X190GR X40UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "JABON",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092914",
+        "IMAGEN": "../images/20241016092914.jpg",
+        "DESCRIPCIÓN": "LAVAVAJILLA SAPOLIO X800GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "LAVAVAJILLA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092950",
+        "IMAGEN": "../images/20241016092950.jpg",
+        "DESCRIPCIÓN": "LEJIA SAPOLIO X5LT",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "LEJIA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092951",
+        "IMAGEN": "../images/20241016092951.jpg",
+        "DESCRIPCIÓN": "LEJIA SAPOLIO X5LT X4UNI",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "LEJIA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093004",
+        "IMAGEN": "../images/20241016093004.jpg",
+        "DESCRIPCIÓN": "MANTEQUILLA MANTY X300GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "MANTEQUILLA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093022",
+        "IMAGEN": "../images/20241016093022.jpg",
+        "DESCRIPCIÓN": "MARGARINA SELLO DE ORO X2KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "MARGARINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241204170548",
+        "IMAGEN": "../images/20241204170548.jpg",
+        "DESCRIPCIÓN": "MARGARINA SELLO DE ORO X400GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "MARGARINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241029111705",
+        "IMAGEN": "../images/20241029111705.jpg",
+        "DESCRIPCIÓN": "MARGARINA SELLO DE ORO X45GR X24UNI",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "MARGARINA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241101113320",
+        "IMAGEN": "../images/20241101113320.jpg",
+        "DESCRIPCIÓN": "MAYONESA ALACENA PERSONAL X8GR X250GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093077",
+        "IMAGEN": "../images/20241016093077.jpg",
+        "DESCRIPCIÓN": "MAZAMORRA DURAZNO UMSHA X125GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "MAZAMORRA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093081",
+        "IMAGEN": "../images/20241016093081.jpg",
+        "DESCRIPCIÓN": "MAZAMORRA MORADA UMSHA X125GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "MAZAMORRA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093085",
+        "IMAGEN": "../images/20241016093085.jpg",
+        "DESCRIPCIÓN": "MAZAMORRA PIÑA UMSHA X125GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "MAZAMORRA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093344",
+        "IMAGEN": "../images/20241016093344.jpg",
+        "DESCRIPCIÓN": "REFRESCO CHICHA MORADA UMSHA X13GR X12UND",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "REFRESCO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093346",
+        "IMAGEN": "../images/20241016093346.jpg",
+        "DESCRIPCIÓN": "REFRESCO FRESA UMSHA X13GR X12UND",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "REFRESCO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093348",
+        "IMAGEN": "../images/20241016093348.jpg",
+        "DESCRIPCIÓN": "REFRESCO MARACUYA UMSHA X13GR X12UND",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "REFRESCO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093350",
+        "IMAGEN": "../images/20241016093350.jpg",
+        "DESCRIPCIÓN": "REFRESCO NARANJA UMSHA X13GR X12UND",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "REFRESCO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093352",
+        "IMAGEN": "../images/20241016093352.jpg",
+        "DESCRIPCIÓN": "REFRESCO PIÑA UMSHA X13GR X12UND",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "REFRESCO",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093389",
+        "IMAGEN": "../images/20241016093389.jpg",
+        "DESCRIPCIÓN": "SALSA KETCHUP ALACENA X100GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093395",
+        "IMAGEN": "../images/20241016093395.jpg",
+        "DESCRIPCIÓN": "SALSA MAYONESA ALACENA X475GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093397",
+        "IMAGEN": "../images/20241016093397.jpg",
+        "DESCRIPCIÓN": "SALSA MAYONESA ALACENA X850GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093399",
+        "IMAGEN": "../images/20241016093399.jpg",
+        "DESCRIPCIÓN": "SALSA MAYONESA ALACENA X95GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20250201095942",
+        "IMAGEN": "../images/20250201095942.jpg",
+        "DESCRIPCIÓN": "SALSA MOSTAZA ALACENA X100GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "SALSA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093462",
+        "IMAGEN": "../images/20241016093462.jpg",
+        "DESCRIPCIÓN": "TROZOS DE ATUN PRIMOR X140GR",
+        "CATEGORIAGENERAL": "ABARROTES",
+        "CATEGORIA": "ATUN",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016093466",
+        "IMAGEN": "../images/20241016093466.jpg",
+        "DESCRIPCIÓN": "UNTABLE MANTY X90GR",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "MANTEQUILLA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092843",
+        "IMAGEN": "../images/20241016092843.jpg",
+        "DESCRIPCIÓN": "HARINA ANITA PASTELERA X50KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "HARINA PASTELERA",
+        "EMPRESA": "ANITA FOOD",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092844",
+        "IMAGEN": "../images/20241016092844.jpg",
+        "DESCRIPCIÓN": "HARINA BENOTI EXTRA X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA EXTRA",
-        "STOCK": null,
-        "EMPRESA": "MOLINO EL TRIUNFO"
+        "EMPRESA": "MOLINO EL TRIUNFO",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA BLANCA NIEVE EXTRA",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA BLANCA NIEVE EXTRA X50KG",
-                "PRECIO": 123.0,
-                "CÓDIGO": 20241016092845,
-                "IMAGEN": "../images/20241016092845.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },{
-                "PRODUCTO": "HARINA BLANCA NIEVE EXTRA",
-                "PRECIO": 2.8,
-                "CÓDIGO": 20241016092846,
-                "IMAGEN": "../images/20241016092846.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-            
-        ],
+        "CÓDIGO": "20241016092845",
+        "IMAGEN": "../images/20241016092845.jpg",
+        "DESCRIPCIÓN": "HARINA BLANCA NIEVE EXTRA X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
+        "CATEGORIA": "HARINA EXTRA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA BLANCA NIEVE FUERZA X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA BLANCA NIEVE FUERZA X50KG",
-                "PRECIO": 126.0,
-                "CÓDIGO": 20241016092847,
-                "IMAGEN": "../images/20241016092847.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092847",
+        "IMAGEN": "../images/20241016092847.jpg",
+        "DESCRIPCIÓN": "HARINA BLANCA NIEVE FUERZA X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA FUERZA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA EL MOLINO EXTRA PULSO X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA EL MOLINO EXTRA PULSO X50KG",
-                "PRECIO": 132.0,
-                "CÓDIGO": 20241016092850,
-                "IMAGEN": "../images/20241016092850.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092850",
+        "IMAGEN": "../images/20241016092850.jpg",
+        "DESCRIPCIÓN": "HARINA EL MOLINO EXTRA PULSO X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA EXTRA",
-        "STOCK": null,
-        "EMPRESA": "MOLICENTRO"
+        "EMPRESA": "MOLICENTRO",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA ESPECIAL ANGELICA",
-        "detail": [
-             {
-                "PRODUCTO": "HARINA ESPECIAL ANGELICA X50KG",
-                "PRECIO": 131.0,
-                "CÓDIGO": 20241016092851,
-                "IMAGEN": "../images/20241016092851.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },{
-                "PRODUCTO": "HARINA ESPECIAL ANGELICA X25KG",
-                "PRECIO": 67.0,
-                "CÓDIGO": 20241226162711,
-                "IMAGEN": "../images/20241226162711.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-           
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA",
-        "STOCK": null,
-        "EMPRESA": "MOLINERA DEL CENTRO"
-    },
-    {
-        "descripcion_general": "HARINA ESPECIAL ANGELO X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA ESPECIAL ANGELO X50KG",
-                "PRECIO": 136.0,
-                "CÓDIGO": 20241016093499,
-                "IMAGEN": "../images/20241016093499.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092851",
+        "IMAGEN": "../images/20241016092851.jpg",
+        "DESCRIPCIÓN": "HARINA ESPECIAL ANGELICA X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA ESPECIAL",
-        "STOCK": null,
-        "EMPRESA": "MOLINERA DEL CENTRO"
+        "EMPRESA": "MOLINERA DEL CENTRO",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA ESPECIAL DON LUCCIANO",
-        "detail": [
-             {
-                "PRODUCTO": "HARINA ESPECIAL DON LUCCIANO X50KG",
-                "PRECIO": 115.0,
-                "CÓDIGO": 20241016092853,
-                "IMAGEN": "../images/20241016092853.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },{
-                "PRODUCTO": "HARINA ESPECIAL DON LUCCIANO",
-                "PRECIO": 2.8,
-                "CÓDIGO": 20241016092852,
-                "IMAGEN": "../images/20241016092852.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-           
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
-    },
-    {
-        "descripcion_general": "HARINA ESPECIAL GRANO DE ORO X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA ESPECIAL GRANO DE ORO X50KG",
-                "PRECIO": 127.0,
-                "CÓDIGO": 20241016092854,
-                "IMAGEN": "../images/20241016092854.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016093499",
+        "IMAGEN": "../images/20241016093499.jpg",
+        "DESCRIPCIÓN": "HARINA ESPECIAL ANGELO X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA ESPECIAL",
-        "STOCK": null,
-        "EMPRESA": "GRANO DE SANTA MARIA"
+        "EMPRESA": "MOLINERA DEL CENTRO",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA ESPECIAL PANERA",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA ESPECIAL PANERA X50KG",
-                "PRECIO": 112.0,
-                "CÓDIGO": 20241016092855,
-                "IMAGEN": "../images/20241016092855.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }, {
-                "PRODUCTO": "HARINA ESPECIAL PANERA X25KG",
-                "PRECIO": 58.0,
-                "CÓDIGO": 20250117094902,
-                "IMAGEN": "../images/20250117094902.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-           
-        ],
+        "CÓDIGO": "20241016092853",
+        "IMAGEN": "../images/20241016092853.jpg",
+        "DESCRIPCIÓN": "HARINA ESPECIAL DON LUCCIANO X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA",
-        "STOCK": null,
-        "EMPRESA": "PODER PANADERO"
+        "CATEGORIA": "HARINA ESPECIAL",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA EXTRA GRANO DE ORO X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA EXTRA GRANO DE ORO X50KG",
-                "PRECIO": 127.0,
-                "CÓDIGO": 20241019160001,
-                "IMAGEN": "../images/20241019160001.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092854",
+        "IMAGEN": "../images/20241016092854.jpg",
+        "DESCRIPCIÓN": "HARINA ESPECIAL GRANO DE ORO X50KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "HARINA ESPECIAL",
+        "EMPRESA": "GRANO DE SANTA MARIA",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092855",
+        "IMAGEN": "../images/20241016092855.jpg",
+        "DESCRIPCIÓN": "HARINA ESPECIAL PANERA X50KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "HARINA ESPECIAL",
+        "EMPRESA": "PODER PANADERO",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241019160001",
+        "IMAGEN": "../images/20241019160001.jpg",
+        "DESCRIPCIÓN": "HARINA EXTRA GRANO DE ORO X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA EXTRA",
-        "STOCK": null,
-        "EMPRESA": "GRANO DE SANTA MARIA"
+        "EMPRESA": "GRANO DE SANTA MARIA",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA NICOLINI PARA COCINAR X11.13KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA NICOLINI PARA COCINAR X11.13KG",
-                "PRECIO": 48.0,
-                "CÓDIGO": 20241016092857,
-                "IMAGEN": "../images/20241016092857.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092857",
+        "IMAGEN": "../images/20241016092857.jpg",
+        "DESCRIPCIÓN": "HARINA NICOLINI PARA COCINAR X11.13KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA PARA COCINAR",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA NICOLINI PASTELERA (COMERCIAL)",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA NICOLINI PASTELERA (COMERCIAL) X50KG",
-                "PRECIO": 147.0,
-                "CÓDIGO": 20241016092859,
-                "IMAGEN": "../images/20241016092859.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },{
-                "PRODUCTO": "HARINA NICOLINI PASTELERA (COMERCIAL)",
-                "PRECIO": 3.6,
-                "CÓDIGO": 20241016092858,
-                "IMAGEN": "../images/20241016092858.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-            
-        ],
+        "CÓDIGO": "20241016092859",
+        "IMAGEN": "../images/20241016092859.jpg",
+        "DESCRIPCIÓN": "HARINA NICOLINI PASTELERA (COMERCIAL) X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
+        "CATEGORIA": "HARINA PASTELERA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA NICOLINI PREMIUM",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA NICOLINI PREMIUM X50KG",
-                "PRECIO": 164.0,
-                "CÓDIGO": 20241016092861,
-                "IMAGEN": "../images/20241016092861.jpg",
-                "UNIDAD DE MEDIDA": "SACOS"
-            },{
-                "PRODUCTO": "HARINA NICOLINI PREMIUM",
-                "PRECIO": 3.5,
-                "CÓDIGO": 20241016092860,
-                "IMAGEN": "../images/20241016092860.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-            
-        ],
+        "CÓDIGO": "20241016092861",
+        "IMAGEN": "../images/20241016092861.jpg",
+        "DESCRIPCIÓN": "HARINA NICOLINI PREMIUM X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
+        "CATEGORIA": "HARINA PASTELERA",
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA NICOLINI SELECCION ESPECIAL",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA NICOLINI SELECCION ESPECIAL X50KG",
-                "PRECIO": 126.0,
-                "CÓDIGO": 20241016092863,
-                "IMAGEN": "../images/20241016092863.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "HARINA NICOLINI SELECCION ESPECIAL",
-                "PRECIO": 3.0,
-                "CÓDIGO": 20241016092862,
-                "IMAGEN": "../images/20241016092862.jpg",
-                "UNIDAD DE MEDIDA": "KILOGRAMO"
-            }
-        
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "HARINA SUELTA",
-        "STOCK": null,
-        "EMPRESA": "ALICORP"
-    },
-    {
-        "descripcion_general": "HARINA PANADERA ESPECIAL BENOTI X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA PANADERA ESPECIAL BENOTI X50KG",
-                "PRECIO": 133.0,
-                "CÓDIGO": 20241016092864,
-                "IMAGEN": "../images/20241016092864.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092863",
+        "IMAGEN": "../images/20241016092863.jpg",
+        "DESCRIPCIÓN": "HARINA NICOLINI SELECCION ESPECIAL X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA ESPECIAL",
-        "STOCK": null,
-        "EMPRESA": "MOLINO EL TRIUNFO"
+        "EMPRESA": "ALICORP",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA PASTELERA BENOTI X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA PASTELERA BENOTI X50KG",
-                "PRECIO": 127.0,
-                "CÓDIGO": 20241016092865,
-                "IMAGEN": "../images/20241016092865.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092864",
+        "IMAGEN": "../images/20241016092864.jpg",
+        "DESCRIPCIÓN": "HARINA PANADERA ESPECIAL BENOTI X50KG",
+        "CATEGORIAGENERAL": "PASTELERIA",
+        "CATEGORIA": "HARINA ESPECIAL",
+        "EMPRESA": "MOLINO EL TRIUNFO",
+        "DETALLE": null,
+        "STOCK": null
+    },
+    {
+        "CÓDIGO": "20241016092865",
+        "IMAGEN": "../images/20241016092865.jpg",
+        "DESCRIPCIÓN": "HARINA PASTELERA BENOTI X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA PASTELERA",
-        "STOCK": null,
-        "EMPRESA": "MOLINO EL TRIUNFO"
+        "EMPRESA": "MOLINO EL TRIUNFO",
+        "DETALLE": null,
+        "STOCK": null
     },
     {
-        "descripcion_general": "HARINA PASTELERA GRANO DE ORO X50KG",
-        "detail": [
-            {
-                "PRODUCTO": "HARINA PASTELERA GRANO DE ORO X50KG",
-                "PRECIO": 130.0,
-                "CÓDIGO": 20241016092866,
-                "IMAGEN": "../images/20241016092866.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
+        "CÓDIGO": "20241016092866",
+        "IMAGEN": "../images/20241016092866.jpg",
+        "DESCRIPCIÓN": "HARINA PASTELERA GRANO DE ORO X50KG",
         "CATEGORIAGENERAL": "PASTELERIA",
         "CATEGORIA": "HARINA PASTELERA",
-        "STOCK": null,
-        "EMPRESA": "GRANO DE SANTA MARIA"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS BASE HUMEDA SABOR CHOCOLATE TRIPLE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS BASE HUMEDA SABOR CHOCOLATE TRIPLE X10KG",
-                "PRECIO": 110.0,
-                "CÓDIGO": 20241016093299,
-                "IMAGEN": "../images/20241016093299.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS BIZCOCHUELO ESPECIAL X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS BIZCOCHUELO ESPECIAL X10KG",
-                "PRECIO": 86.0,
-                "CÓDIGO": 20241016093300,
-                "IMAGEN": "../images/20241016093300.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS BIZCOCHUELO ESPECIAL X1KG",
-                "PRECIO": 11.0,
-                "CÓDIGO": 20241016093301,
-                "IMAGEN": "../images/20241016093301.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS CARROT CAKE X 1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS CARROT CAKE X 1KG",
-                "PRECIO": 14.5,
-                "CÓDIGO": 20250222075943,
-                "IMAGEN": "../images/20250222075943.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS DE CHOCOLATE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS DE CHOCOLATE X10KG",
-                "PRECIO": 90.0,
-                "CÓDIGO": 20250424085607,
-                "IMAGEN": "../images/20250424085607.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS DOBLE DE CHOCOLATE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS DOBLE DE CHOCOLATE X10KG",
-                "PRECIO": 102.0,
-                "CÓDIGO": 20241016093302,
-                "IMAGEN": "../images/20241016093302.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS DONAS X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS DONAS X5KG",
-                "PRECIO": 53.0,
-                "CÓDIGO": 20250113093802,
-                "IMAGEN": "../images/20250113093802.jpg",
-                "UNIDAD DE MEDIDA": "BOLSA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS DONUTS X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS DONUTS X5KG",
-                "PRECIO": 51.0,
-                "CÓDIGO": 20250222080218,
-                "IMAGEN": "../images/20250222080218.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS KEKE CLASICO CONCENTRADO X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS KEKE CLASICO CONCENTRADO X10KG",
-                "PRECIO": 108.0,
-                "CÓDIGO": 20241016093303,
-                "IMAGEN": "../images/20241016093303.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS MUFFIN MIX SABOR CHOCOLATE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS MUFFIN MIX SABOR CHOCOLATE X10KG",
-                "PRECIO": 90.0,
-                "CÓDIGO": 20241016093304,
-                "IMAGEN": "../images/20241016093304.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS MUFFIN MIX SABOR VAINILLA X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS MUFFIN MIX SABOR VAINILLA X10KG",
-                "PRECIO": 88.0,
-                "CÓDIGO": 20241016093305,
-                "IMAGEN": "../images/20241016093305.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS RED VELVET X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS RED VELVET X10KG",
-                "PRECIO": 103.0,
-                "CÓDIGO": 20241016093306,
-                "IMAGEN": "../images/20241016093306.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS RED VELVET X1KG",
-                "PRECIO": 13.0,
-                "CÓDIGO": 20241016093307,
-                "IMAGEN": "../images/20241016093307.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS SABOR DOBLE DE CHOCOLATE X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS SABOR DOBLE DE CHOCOLATE X1KG",
-                "PRECIO": 11.5,
-                "CÓDIGO": 20241016093308,
-                "IMAGEN": "../images/20241016093308.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS SABOR DOBLE DE CHOCOLATE X1KG X15UNI",
-                "PRECIO": 165.0,
-                "CÓDIGO": 20241016093309,
-                "IMAGEN": "../images/20241016093309.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS SABOR VAINILLA X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS SABOR VAINILLA X10KG",
-                "PRECIO": 85.0,
-                "CÓDIGO": 20241016093310,
-                "IMAGEN": "../images/20241016093310.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS SABOR VAINILLA X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS SABOR VAINILLA X1KG",
-                "PRECIO": 11.0,
-                "CÓDIGO": 20241016093311,
-                "IMAGEN": "../images/20241016093311.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS SABOR VAINILLA X1KG X15UNI",
-                "PRECIO": 157.5,
-                "CÓDIGO": 20241016093312,
-                "IMAGEN": "../images/20241016093312.jpg",
-                "UNIDAD DE MEDIDA": "CAJA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS TRES LECHES X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS TRES LECHES X10KG",
-                "PRECIO": 84.0,
-                "CÓDIGO": 20241016093313,
-                "IMAGEN": "../images/20241016093313.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS TRES LECHES X1KG",
-                "PRECIO": 10.5,
-                "CÓDIGO": 20241016093314,
-                "IMAGEN": "../images/20241016093314.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS TRIPLE DE CHOCOLATE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS TRIPLE DE CHOCOLATE X10KG",
-                "PRECIO": 115.0,
-                "CÓDIGO": 20241016093315,
-                "IMAGEN": "../images/20241016093315.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA BAKELS WEDDING CAKE MIX X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS WEDDING CAKE MIX X1KG",
-                "PRECIO": 13.0,
-                "CÓDIGO": 20241016093316,
-                "IMAGEN": "../images/20241016093316.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA BAKELS WEDDING CAKE X10KG",
-                "PRECIO": 88.0,
-                "CÓDIGO": 20241016093317,
-                "IMAGEN": "../images/20241016093317.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "BAKELS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA CHIFON HENSIL X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA CHIFON HENSIL X5KG",
-                "PRECIO": 39.0,
-                "CÓDIGO": 20250115102249,
-                "IMAGEN": "../images/20250115102249.jpg",
-                "UNIDAD DE MEDIDA": "BOLSA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-   
-    {
-        "descripcion_general": "PREMEZCLA EASY QUEQUE PURATOS X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA EASY QUEQUE PURATOS X5KG",
-                "PRECIO": 74.0,
-                "CÓDIGO": 20241016093320,
-                "IMAGEN": "../images/20241016093320.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA EASY TORTA DE CHOCOLATE PURATOS X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA EASY TORTA DE CHOCOLATE PURATOS X5KG",
-                "PRECIO": 226.0,
-                "CÓDIGO": 20241016093321,
-                "IMAGEN": "../images/20241016093321.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA FLEISCHMANN BIZCOCHUELO TRES LECHES X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA FLEISCHMANN BIZCOCHUELO TRES LECHES X5KG",
-                "PRECIO": 41.0,
-                "CÓDIGO": 20241016093318,
-                "IMAGEN": "../images/20241016093318.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "FLEISCHMANN "
-    },
-    {
-        "descripcion_general": "PREMEZCLA FLEISCHMANN BIZCOCHUELO VAINILLA X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA FLEISCHMANN BIZCOCHUELO VAINILLA X5KG",
-                "PRECIO": 59.0,
-                "CÓDIGO": 20241016093319,
-                "IMAGEN": "../images/20241016093319.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "FLEISCHMANN "
-    },
-    {
-        "descripcion_general": "PREMEZCLA FLEISCHMANN KEKE HUMEDO X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA FLEISCHMANN KEKE HUMEDO X5KG",
-                "PRECIO": 46.0,
-                "CÓDIGO": 20241016093330,
-                "IMAGEN": "../images/20241016093330.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "FLEISCHMANN "
-    },
-    {
-        "descripcion_general": "PREMEZCLA FLEISCHMANN KEKE VAINILLA X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA FLEISCHMANN KEKE VAINILLA X5KG",
-                "PRECIO": 45.0,
-                "CÓDIGO": 20241016093331,
-                "IMAGEN": "../images/20241016093331.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "FLEISCHMANN "
-    },
-    {
-        "descripcion_general": "PREMEZCLA FLEISCHMANN TORTA CHOCOLATE X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA FLEISCHMANN TORTA CHOCOLATE X5KG",
-                "PRECIO": 59.0,
-                "CÓDIGO": 20241016093335,
-                "IMAGEN": "../images/20241016093335.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "FLEISCHMANN "
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL BIZCOHUELO TRES LECHES X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL BIZCOHUELO TRES LECHES X10KG",
-                "PRECIO": 89.0,
-                "CÓDIGO": 20241016093324,
-                "IMAGEN": "../images/20241016093324.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL KEKE ESTANDAR X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL KEKE ESTANDAR X10KG",
-                "PRECIO": 69.0,
-                "CÓDIGO": 20241016093325,
-                "IMAGEN": "../images/20241016093325.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL KEKE PREMIUM X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL KEKE PREMIUM X10KG",
-                "PRECIO": 74.0,
-                "CÓDIGO": 20241016093326,
-                "IMAGEN": "../images/20241016093326.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL KEKE PREMIUM X1KG",
-                "PRECIO": 8.5,
-                "CÓDIGO": 20250222122556,
-                "IMAGEN": "../images/20250222122556.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL KEKERA X1KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL KEKERA X10KG",
-                "PRECIO": 74.0,
-                "CÓDIGO": 20241016093327,
-                "IMAGEN": "../images/20241016093327.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            },
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL KEKERA X1KG",
-                "PRECIO": 8.0,
-                "CÓDIGO": 20250222122629,
-                "IMAGEN": "../images/20250222122629.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL PRAKTI - KEKE X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL PRAKTI - KEKE X5KG",
-                "PRECIO": 60.0,
-                "CÓDIGO": 20241016093328,
-                "IMAGEN": "../images/20241016093328.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA HENSIL TORTA DE CHOCOLATE ALTURA X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA HENSIL TORTA DE CHOCOLATE ALTURA X10KG",
-                "PRECIO": 90.0,
-                "CÓDIGO": 20241016093329,
-                "IMAGEN": "../images/20241016093329.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "HENSIL"
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI BIZCOCHUELO X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI BIZCOCHUELO X10KG",
-                "PRECIO": 84.0,
-                "CÓDIGO": 20241016093332,
-                "IMAGEN": "../images/20241016093332.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI CHOCOLATE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI CHOCOLATE X10KG",
-                "PRECIO": 91.0,
-                "CÓDIGO": 20241118154415,
-                "IMAGEN": "../images/20241118154415.jpg",
-                "UNIDAD DE MEDIDA": "BOLSA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI KEKE X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI KEKE X10KG",
-                "PRECIO": 83.0,
-                "CÓDIGO": 20241118154256,
-                "IMAGEN": "../images/20241118154256.jpg",
-                "UNIDAD DE MEDIDA": "BOLSA"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI MUFFINS X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI MUFFINS X10KG",
-                "PRECIO": 83.0,
-                "CÓDIGO": 20241016093333,
-                "IMAGEN": "../images/20241016093333.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI PAN INTEGRAL X25KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI PAN INTEGRAL X25KG",
-                "PRECIO": 110.0,
-                "CÓDIGO": 20241118154213,
-                "IMAGEN": "../images/20241118154213.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA NICOLINI PAN MULTICEREAL ANDINO X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA NICOLINI PAN MULTICEREAL ANDINO X10KG",
-                "PRECIO": 84.0,
-                "CÓDIGO": 20241118154442,
-                "IMAGEN": "../images/20241118154442.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "NICOLINI "
-    },
-    {
-        "descripcion_general": "PREMEZCLA PURATOS TEGRAL BASE DE CHOCOLATE X5KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PURATOS TEGRAL BASE DE CHOCOLATE X5KG",
-                "PRECIO": 48.0,
-                "CÓDIGO": 20241016093334,
-                "IMAGEN": "../images/20241016093334.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA PURATOS TEGRAL BIZCOCHUELO PREMIUM X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PURATOS TEGRAL BIZCOCHUELO PREMIUM X10KG",
-                "PRECIO": 154.0,
-                "CÓDIGO": 20241016093450,
-                "IMAGEN": "../images/20241016093450.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA PURATOS TEGRAL BIZCOCHUELO TRES LECHES PREMIUM X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PURATOS TEGRAL BIZCOCHUELO TRES LECHES PREMIUM X10KG",
-                "PRECIO": 132.0,
-                "CÓDIGO": 20241016093451,
-                "IMAGEN": "../images/20241016093451.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
-    },
-    {
-        "descripcion_general": "PREMEZCLA PURATOS TORTA DE CHOCOLATE EXTREMO X10KG",
-        "detail": [
-            {
-                "PRODUCTO": "PREMEZCLA PURATOS TORTA DE CHOCOLATE EXTREMO X10KG",
-                "PRECIO": 132.0,
-                "CÓDIGO": 20241016093336,
-                "IMAGEN": "../images/20241016093336.jpg",
-                "UNIDAD DE MEDIDA": "UNIDADES"
-            }
-        ],
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "PREMEZCLA",
-        "STOCK": null,
-        "EMPRESA": "PURATOS"
+        "EMPRESA": "GRANO DE SANTA MARIA",
+        "DETALLE": null,
+        "STOCK": null
     }
 ]

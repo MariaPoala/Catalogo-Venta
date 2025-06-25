@@ -3,7 +3,7 @@ import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { ProductoService, ProductoItem, DetalleProducto } from './servicios/producto.service';
+import { ProductoService, ProductoItem} from './servicios/producto.service';
 import { ProductoTransformado } from './servicios/producto-transformado.model';
 import { FooterComponent } from './footer/footer.component';
 
@@ -83,26 +83,25 @@ export class AppComponent implements OnInit {
 
 
 
-  
 
-async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
-  return data.map((item) => {
-    const detalles = item.detail ?? [];
-    const primerProd = detalles[0];
-    const imagen = primerProd?.IMAGEN?.split('/').pop() ?? 'sinimagen.jpg';
 
-    return {
-      imagen,  // Solo el nombre del archivo
-      productos: detalles.map(prod => ({
-        nombre: prod.PRODUCTO,
-        precio: prod.PRECIO
-      })),
-      categoriaGeneral: item.CATEGORIAGENERAL,
-      categoria: item.CATEGORIA,
-      empresa: item.EMPRESA?.trim() || 'SIN EMPRESA'
-    };
-  });
-}
+  async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]> {
+    return data.map((item) => {
+      const imagen = item.IMAGEN?.split('/').pop() ?? 'sinimagen.jpg';
+
+      return {
+        imagen,
+        productos: [{
+          nombre: item.DESCRIPCIÓN,
+          precio: 0 // Puedes cambiar esto si tienes un campo de precio
+        }],
+        categoriaGeneral: item.CATEGORIAGENERAL,
+        categoria: item.CATEGORIA,
+        empresa: item.EMPRESA?.trim() || 'SIN EMPRESA'
+      };
+    });
+  }
+
 
 
 
@@ -176,7 +175,7 @@ async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]
     this.filtrarProductos();
     this.mostrarDropdown = false;
     this.paginaActual = 1;
-    
+
   }
 
 
@@ -188,8 +187,8 @@ async transformarProductos(data: ProductoItem[]): Promise<ProductoTransformado[]
 
 
   onImageError(event: Event) {
-  const img = event.target as HTMLImageElement;
-  img.src = 'assets/images/sinimagen.jpg';
-}
+    const img = event.target as HTMLImageElement;
+    img.src = 'assets/images/sinimagen.jpg';
+  }
 
 }

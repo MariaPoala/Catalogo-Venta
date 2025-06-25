@@ -3,23 +3,17 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 // Esta interfaz es para cada producto dentro de 'detail'
-export interface DetalleProducto {
-  PRODUCTO: string;
-  PRECIO: number;
-  CÓDIGO: number;
-  IMAGEN: string;
-  'UNIDAD DE MEDIDA': string;
-}
-
-// Esta interfaz es para cada objeto general del JSON
 export interface ProductoItem {
-  descripcion_general: string;
-  detail: DetalleProducto[];
+  CÓDIGO: string;
+  IMAGEN: string | null;
+  DESCRIPCIÓN: string;
   CATEGORIAGENERAL: string;
   CATEGORIA: string;
-  EMPRESA: string; 
+  EMPRESA: string | null;
+  DETALLE: any;
   STOCK: number | null;
 }
+
 
 @Injectable({
   providedIn: 'root'
