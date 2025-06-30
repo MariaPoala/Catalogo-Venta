@@ -260,16 +260,6 @@
         "STOCK": null
     },
     {
-        "CÓDIGO": "20241016093470",
-        "IMAGEN": "../images/20241016093470.jpg",
-        "DESCRIPCIÓN": "ESENCIA VAINILLA UMSHA X1LT X12BOT",
-        "CATEGORIAGENERAL": "PASTELERIA",
-        "CATEGORIA": "ESENCIA",
-        "EMPRESA": "ALICORP",
-        "DETALLE": null,
-        "STOCK": null
-    },
-    {
         "CÓDIGO": "20250127105659",
         "IMAGEN": "../images/20250127105659.jpg",
         "DESCRIPCIÓN": "ESENCIA VAINILLA UMSHA X90ML",
@@ -560,16 +550,6 @@
         "STOCK": null
     },
     {
-        "CÓDIGO": "20241016092883",
-        "IMAGEN": "../images/20241016092883.jpg",
-        "DESCRIPCIÓN": "JABON MARSELLA FLORAL X190GR X40UNI",
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "JABON",
-        "EMPRESA": "ALICORP",
-        "DETALLE": null,
-        "STOCK": null
-    },
-    {
         "CÓDIGO": "20241016092914",
         "IMAGEN": "../images/20241016092914.jpg",
         "DESCRIPCIÓN": "LAVAVAJILLA SAPOLIO X800GR",
@@ -583,16 +563,6 @@
         "CÓDIGO": "20241016092950",
         "IMAGEN": "../images/20241016092950.jpg",
         "DESCRIPCIÓN": "LEJIA SAPOLIO X5LT",
-        "CATEGORIAGENERAL": "ABARROTES",
-        "CATEGORIA": "LEJIA",
-        "EMPRESA": "ALICORP",
-        "DETALLE": null,
-        "STOCK": null
-    },
-    {
-        "CÓDIGO": "20241016092951",
-        "IMAGEN": "../images/20241016092951.jpg",
-        "DESCRIPCIÓN": "LEJIA SAPOLIO X5LT X4UNI",
         "CATEGORIAGENERAL": "ABARROTES",
         "CATEGORIA": "LEJIA",
         "EMPRESA": "ALICORP",
